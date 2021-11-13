@@ -79,7 +79,7 @@ public class CompletableFuturesCrawler
         // 4. Use a terminal operation to get the total number of
         //    processed images from the one-element stream.
 
-        // TODO -- you fill in here replacing return 0 with your
+        // TODO -- you fill in here replacing return null with your
         // solution.
         return null;
     }
@@ -227,9 +227,10 @@ public class CompletableFuturesCrawler
 
     /**
      * Download, transform, and store images provided via a {@link
-     * List} of {@code urls}.
+     * Array} of {@code urls}.
      *
-     * @param urls A {@link List} of URLs corresponding to images on the page
+     * @param urls An {@link Array} of URLs corresponding to images
+     *             on the page
      * @return A {@link CompletableFuture to an {@link Integer} that
      *         counts how many images were downloaded, transformed,
      *         and stored for all {@code urls} on the page
@@ -237,10 +238,10 @@ public class CompletableFuturesCrawler
     protected CompletableFuture<Integer> processImages(Array<URL> urls) {
         // Return a CompletableFuture containing a count of the # of
         // images that were downloaded, transformed, and stored from
-        // the List of URLs.  This method should consist of a Java
+        // the Array of URLs.  This method should consist of a Java
         // sequential stream that uses aggregate operations (e.g.,
         // map(), collect(), and flatMap()), several completable
-        // future methods (e.g., FuturesCollectorStream .toFuture()
+        // future methods (e.g., FuturesCollectorStream.toFuture()
         // and thenApply()), and various other methods (e.g.,
         // downloadAndStoreImageAsync() and transformImageAsync()).
 
