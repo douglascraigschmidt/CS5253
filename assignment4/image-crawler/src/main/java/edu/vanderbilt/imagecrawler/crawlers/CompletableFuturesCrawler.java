@@ -218,7 +218,7 @@ public class CompletableFuturesCrawler
         // Future-related methods (e.g., thenApply() and
         // FuturesCollectorIntStream.toFuture()), and other helper
         // methods (e.g., getPageElementsAsStrings() and
-        // performCrawlAsync()).
+        // crawlPageAsync()).
 
         // TODO -- you fill in here replacing return null with your
         // solution.
