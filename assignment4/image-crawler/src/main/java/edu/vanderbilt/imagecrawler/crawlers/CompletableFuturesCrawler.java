@@ -241,9 +241,9 @@ public class CompletableFuturesCrawler
         // the Array of URLs.  This method should consist of a Java
         // sequential stream that uses aggregate operations (e.g.,
         // map(), collect(), and flatMap()), several completable
-        // future methods (e.g., FuturesCollectorStream.toFuture()
-        // and thenApply()), and various other methods (e.g.,
-        // downloadAndStoreImageAsync() and transformImageAsync()).
+        // future methods (e.g., FuturesCollectorStream.toFuture() and
+        // thenApply()), and various other methods (e.g.,
+        // getOrDownloadImageAsync() and transformImageAsync()).
 
         // TODO -- you fill in here replacing return null with your
         // solution.
