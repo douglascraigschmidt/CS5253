@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 /**
  * A Java utility class that simplifies the integration of blocking
  * {@link Runnable} and {@link Supplier} objects with the Java common
- * fork/join thread pool.  This class is based on the one described at
+ * fork-join thread pool.  This class is based on the one described at
  * http://stackoverflow.com/questions/37512662/is-there-anything-wrong
  * -with-using-i-o-managedblocker-in-java8-parallelstream.
  */
